@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Kirim Uang Suites" time="135.995" tests="6" failures="0" errors="0">
+   <testsuite name="Kirim Uang Suites" tests="6" failures="0" errors="0" time="135.995" timestamp="2020-09-16 14:38:10" hostname="E490 - M19-099B.xtremax.com" id="Test Suites/Kirim Uang Suites">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\E490\\git\\FlipWebTest\\Reports\\20200916_143808\\Kirim Uang Suites\\20200916_143808"/>
+         <property name="logFiles" value="C:\\Users\\E490\\git\\FlipWebTest\\Reports\\20200916_143808\\Kirim Uang Suites\\20200916_143808\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="E490 - M19-099B.xtremax.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.102"/>
+         <property name="hostAddress" value="192.168.0.3"/>
+         <property name="sessionId" value="7f7eead997a6f2ea269b30a69c71e1dd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Kirim Uang/Abort With Valid Input" time="30.197" classname="Test Cases/Kirim Uang/Abort With Valid Input" status="PASSED">
+         <system-out><![CDATA[2020-09-16 14:38:10 - [TEST_CASE][PASSED] - Test Cases/Kirim Uang/Abort With Valid Input: Test Cases/Kirim Uang/Abort With Valid Input
+
+2020-09-16 14:38:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-16 14:38:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-16 14:38:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-16 14:38:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-16 14:38:16 - [TEST_STEP][PASSED] - navigateToUrl("https://flip.id/login"): Navigate to 'https://flip.id/login' successfully
+
+2020-09-16 14:38:22 - [MESSAGE][PASSED] - Navigate to 'https://flip.id/login' successfully
+
+2020-09-16 14:38:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/Input Email"), "m.fauzan.afianto@gmail.com"): Text 'm.fauzan.afianto@gmail.com' is set on object 'Object Repository/Page_Login/Input Email'
+
+2020-09-16 14:38:23 - [MESSAGE][PASSED] - Text 'm.fauzan.afianto@gmail.com' is set on object 'Object Repository/Page_Login/Input Email'
+
+2020-09-16 14:38:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/Input Password"), "DckXWtD/9LOnxpHoHTUHFQ=="): Text ****** has been set on object 'Object Repository/Page_Login/Input Password'
+
+2020-09-16 14:38:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/Input Password'
+
+2020-09-16 14:38:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/Button MASUK")): Object: 'Object Repository/Page_Login/Button MASUK' is clicked on
+
+2020-09-16 14:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/Button MASUK' is clicked on
+
+2020-09-16 14:38:24 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Page_Beranda/Button Kirim Uang")): Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is hovered
+
+2020-09-16 14:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is hovered
+
+2020-09-16 14:38:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Beranda/Button Kirim Uang")): Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is clicked on
+
+2020-09-16 14:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is clicked on
+
+2020-09-16 14:38:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Kirim Uang/Title Kirim Uang Page"), "Kirim Uang"): Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Title Kirim Uang Page' are matched.
+
+2020-09-16 14:38:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Title Kirim Uang Page' are matched.
+
+2020-09-16 14:38:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60"), "tabungan_pensiunan_nasional", true): All options with value 'tabungan_pensiunan_nasional' are selected in object 'Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60'  using regular expression
+
+2020-09-16 14:38:29 - [MESSAGE][PASSED] - All options with value 'tabungan_pensiunan_nasional' are selected in object 'Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60'  using regular expression
+
+2020-09-16 14:38:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60_1"), "tabungan_pensiunan_nasional", true): All options with value 'tabungan_pensiunan_nasional' are selected in object 'Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60_1'  using regular expression
+
+2020-09-16 14:38:30 - [MESSAGE][PASSED] - All options with value 'tabungan_pensiunan_nasional' are selected in object 'Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60_1'  using regular expression
+
+2020-09-16 14:38:30 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number"), STOP_ON_FAILURE): Text of object 'Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number' is cleared
+
+2020-09-16 14:38:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number' is cleared
+
+2020-09-16 14:38:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number"), "90011236271"): Text '90011236271' is set on object 'Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number'
+
+2020-09-16 14:38:31 - [MESSAGE][PASSED] - Text '90011236271' is set on object 'Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number'
+
+2020-09-16 14:38:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Kirim Uang/button_CEK NAMA")): Object: 'Object Repository/Page_Kirim Uang/button_CEK NAMA' is clicked on
+
+2020-09-16 14:38:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Kirim Uang/button_CEK NAMA' is clicked on
+
+2020-09-16 14:38:32 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_beneficiary_bank"), "value", "MUHAMMAD FAUZAN AFIANTO", 5): Object 'Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_beneficiary_bank' has attribute 'value' with value 'MUHAMMAD FAUZAN AFIANTO'
+
+2020-09-16 14:38:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_beneficiary_bank' has attribute 'value' with value 'MUHAMMAD FAUZAN AFIANTO'
+
+2020-09-16 14:38:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Kirim Uang/input_Rp_amount"), "10.000"): Text '10.000' is set on object 'Object Repository/Page_Kirim Uang/input_Rp_amount'
+
+2020-09-16 14:38:33 - [MESSAGE][PASSED] - Text '10.000' is set on object 'Object Repository/Page_Kirim Uang/input_Rp_amount'
+
+2020-09-16 14:38:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Kirim Uang/button_OK, DATA SUDAH BENAR")): Object: 'Object Repository/Page_Kirim Uang/button_OK, DATA SUDAH BENAR' is clicked on
+
+2020-09-16 14:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Kirim Uang/button_OK, DATA SUDAH BENAR' is clicked on
+
+2020-09-16 14:38:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Kirim Uang/Konfirmasi No Rekening"), "90011236271"): Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Konfirmasi No Rekening' are matched.
+
+2020-09-16 14:38:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Konfirmasi No Rekening' are matched.
+
+2020-09-16 14:38:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Kirim Uang/Konfirmasi Noiminal 1"), "Rp10.000"): Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Konfirmasi Noiminal 1' are matched.
+
+2020-09-16 14:38:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Konfirmasi Noiminal 1' are matched.
+
+2020-09-16 14:38:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Kirim Uang/Konfirmasi Noiminal 2"), "Rp10.000"): Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Konfirmasi Noiminal 2' are matched.
+
+2020-09-16 14:38:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Konfirmasi Noiminal 2' are matched.
+
+2020-09-16 14:38:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Kirim Uang/a_LANJUT")): Object: 'Object Repository/Page_Kirim Uang/a_LANJUT' is clicked on
+
+2020-09-16 14:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Kirim Uang/a_LANJUT' is clicked on
+
+2020-09-16 14:38:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Kirim Uang/a_SIAP, SAYA SETUJU")): Object: 'Object Repository/Page_Kirim Uang/a_SIAP, SAYA SETUJU' is clicked on
+
+2020-09-16 14:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Kirim Uang/a_SIAP, SAYA SETUJU' is clicked on
+
+2020-09-16 14:38:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Konfirmasi Transaksi/span_Lihat")): Object: 'Object Repository/Page_Konfirmasi Transaksi/span_Lihat' is clicked on
+
+2020-09-16 14:38:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Konfirmasi Transaksi/span_Lihat' is clicked on
+
+2020-09-16 14:38:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Konfirmasi Transaksi/Konfirmasi 2 Rerekening Penerima"), "90011236271"): Actual text and expected text of test object 'Object Repository/Page_Konfirmasi Transaksi/Konfirmasi 2 Rerekening Penerima' are matched.
+
+2020-09-16 14:38:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Konfirmasi Transaksi/Konfirmasi 2 Rerekening Penerima' are matched.
+
+2020-09-16 14:38:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Konfirmasi Transaksi/Konfirmasi 2 Nama Penerima"), "MUHAMMAD FAUZAN AFIANTO"): Actual text and expected text of test object 'Object Repository/Page_Konfirmasi Transaksi/Konfirmasi 2 Nama Penerima' are matched.
+
+2020-09-16 14:38:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Konfirmasi Transaksi/Konfirmasi 2 Nama Penerima' are matched.
+
+2020-09-16 14:38:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Konfirmasi Transaksi/Konfirmasi 2 Nominal"), "Rp10.000"): Actual text and expected text of test object 'Object Repository/Page_Konfirmasi Transaksi/Konfirmasi 2 Nominal' are matched.
+
+2020-09-16 14:38:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Konfirmasi Transaksi/Konfirmasi 2 Nominal' are matched.
+
+2020-09-16 14:38:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Konfirmasi Transaksi/button_BATALKAN TRANSAKSI")): Object: 'Object Repository/Page_Konfirmasi Transaksi/button_BATALKAN TRANSAKSI' is clicked on
+
+2020-09-16 14:38:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Konfirmasi Transaksi/button_BATALKAN TRANSAKSI' is clicked on
+
+2020-09-16 14:38:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Konfirmasi Transaksi/button_YAKIN BANGET")): Object: 'Object Repository/Page_Konfirmasi Transaksi/button_YAKIN BANGET' is clicked on
+
+2020-09-16 14:38:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Konfirmasi Transaksi/button_YAKIN BANGET' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Kirim Uang/Go to Kirim Uang Page" time="14.791" classname="Test Cases/Kirim Uang/Go to Kirim Uang Page" status="PASSED">
+         <system-out><![CDATA[2020-09-16 14:38:40 - [TEST_CASE][PASSED] - Test Cases/Kirim Uang/Go to Kirim Uang Page: Test Cases/Kirim Uang/Go to Kirim Uang Page
+
+2020-09-16 14:38:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-16 14:38:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-16 14:38:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-16 14:38:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-16 14:38:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-16 14:38:44 - [TEST_STEP][PASSED] - navigateToUrl("https://flip.id/login"): Navigate to 'https://flip.id/login' successfully
+
+2020-09-16 14:38:49 - [MESSAGE][PASSED] - Navigate to 'https://flip.id/login' successfully
+
+2020-09-16 14:38:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/Input Email"), "m.fauzan.afianto@gmail.com"): Text 'm.fauzan.afianto@gmail.com' is set on object 'Object Repository/Page_Login/Input Email'
+
+2020-09-16 14:38:51 - [MESSAGE][PASSED] - Text 'm.fauzan.afianto@gmail.com' is set on object 'Object Repository/Page_Login/Input Email'
+
+2020-09-16 14:38:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/Input Password"), "DckXWtD/9LOnxpHoHTUHFQ=="): Text ****** has been set on object 'Object Repository/Page_Login/Input Password'
+
+2020-09-16 14:38:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/Input Password'
+
+2020-09-16 14:38:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/Button MASUK")): Object: 'Object Repository/Page_Login/Button MASUK' is clicked on
+
+2020-09-16 14:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/Button MASUK' is clicked on
+
+2020-09-16 14:38:52 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Page_Beranda/Button Kirim Uang")): Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is hovered
+
+2020-09-16 14:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is hovered
+
+2020-09-16 14:38:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_Beranda/Button Kirim Uang")): Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is clicked on
+
+2020-09-16 14:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is clicked on
+
+2020-09-16 14:38:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Kirim Uang/Title Kirim Uang Page"), "Kirim Uang"): Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Title Kirim Uang Page' are matched.
+
+2020-09-16 14:38:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Title Kirim Uang Page' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Kirim Uang/Proceeed With Blank Input" time="17.232" classname="Test Cases/Kirim Uang/Proceeed With Blank Input" status="PASSED">
+         <system-out><![CDATA[2020-09-16 14:38:55 - [TEST_CASE][PASSED] - Test Cases/Kirim Uang/Proceeed With Blank Input: Test Cases/Kirim Uang/Proceeed With Blank Input
+
+2020-09-16 14:38:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-16 14:38:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-16 14:38:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-16 14:38:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-16 14:38:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-16 14:38:59 - [TEST_STEP][PASSED] - navigateToUrl("https://flip.id/login"): Navigate to 'https://flip.id/login' successfully
+
+2020-09-16 14:39:04 - [MESSAGE][PASSED] - Navigate to 'https://flip.id/login' successfully
+
+2020-09-16 14:39:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/Input Email"), "m.fauzan.afianto@gmail.com"): Text 'm.fauzan.afianto@gmail.com' is set on object 'Object Repository/Page_Login/Input Email'
+
+2020-09-16 14:39:06 - [MESSAGE][PASSED] - Text 'm.fauzan.afianto@gmail.com' is set on object 'Object Repository/Page_Login/Input Email'
+
+2020-09-16 14:39:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/Input Password"), "DckXWtD/9LOnxpHoHTUHFQ=="): Text ****** has been set on object 'Object Repository/Page_Login/Input Password'
+
+2020-09-16 14:39:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/Input Password'
+
+2020-09-16 14:39:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/Button MASUK")): Object: 'Object Repository/Page_Login/Button MASUK' is clicked on
+
+2020-09-16 14:39:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/Button MASUK' is clicked on
+
+2020-09-16 14:39:07 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Page_Beranda/Button Kirim Uang")): Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is hovered
+
+2020-09-16 14:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is hovered
+
+2020-09-16 14:39:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Beranda/Button Kirim Uang")): Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is clicked on
+
+2020-09-16 14:39:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is clicked on
+
+2020-09-16 14:39:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Kirim Uang/Title Kirim Uang Page"), "Kirim Uang"): Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Title Kirim Uang Page' are matched.
+
+2020-09-16 14:39:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Title Kirim Uang Page' are matched.
+
+2020-09-16 14:39:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Kirim Uang/button_OK, DATA SUDAH BENAR")): Object: 'Object Repository/Page_Kirim Uang/button_OK, DATA SUDAH BENAR' is clicked on
+
+2020-09-16 14:39:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Kirim Uang/button_OK, DATA SUDAH BENAR' is clicked on
+
+2020-09-16 14:39:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Kirim Uang/div_Pilih rekening yang digunakan")): Object 'Object Repository/Page_Kirim Uang/div_Pilih rekening yang digunakan' is visible
+
+2020-09-16 14:39:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Kirim Uang/div_Pilih rekening yang digunakan' is visible
+
+2020-09-16 14:39:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Kirim Uang/div_Pilih rekening tujuan")): Object 'Object Repository/Page_Kirim Uang/div_Pilih rekening tujuan' is visible
+
+2020-09-16 14:39:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Kirim Uang/div_Pilih rekening tujuan' is visible
+
+2020-09-16 14:39:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Kirim Uang/div_Masukkan nomor rekening")): Object 'Object Repository/Page_Kirim Uang/div_Masukkan nomor rekening' is visible
+
+2020-09-16 14:39:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Kirim Uang/div_Masukkan nomor rekening' is visible
+
+2020-09-16 14:39:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Kirim Uang/div_Minimal nominal Rp10.000")): Object 'Object Repository/Page_Kirim Uang/div_Minimal nominal Rp10.000' is visible
+
+2020-09-16 14:39:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Kirim Uang/div_Minimal nominal Rp10.000' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Kirim Uang/Proceeed With Invalid Beneficiary Number" time="19.467" classname="Test Cases/Kirim Uang/Proceeed With Invalid Beneficiary Number" status="PASSED">
+         <system-out><![CDATA[2020-09-16 14:39:12 - [TEST_CASE][PASSED] - Test Cases/Kirim Uang/Proceeed With Invalid Beneficiary Number: Test Cases/Kirim Uang/Proceeed With Invalid Beneficiary Number
+
+2020-09-16 14:39:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-16 14:39:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-16 14:39:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-16 14:39:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-16 14:39:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-16 14:39:16 - [TEST_STEP][PASSED] - navigateToUrl("https://flip.id/login"): Navigate to 'https://flip.id/login' successfully
+
+2020-09-16 14:39:22 - [MESSAGE][PASSED] - Navigate to 'https://flip.id/login' successfully
+
+2020-09-16 14:39:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/Input Email"), "m.fauzan.afianto@gmail.com"): Text 'm.fauzan.afianto@gmail.com' is set on object 'Object Repository/Page_Login/Input Email'
+
+2020-09-16 14:39:23 - [MESSAGE][PASSED] - Text 'm.fauzan.afianto@gmail.com' is set on object 'Object Repository/Page_Login/Input Email'
+
+2020-09-16 14:39:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/Input Password"), "DckXWtD/9LOnxpHoHTUHFQ=="): Text ****** has been set on object 'Object Repository/Page_Login/Input Password'
+
+2020-09-16 14:39:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/Input Password'
+
+2020-09-16 14:39:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/Button MASUK")): Object: 'Object Repository/Page_Login/Button MASUK' is clicked on
+
+2020-09-16 14:39:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/Button MASUK' is clicked on
+
+2020-09-16 14:39:24 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Page_Beranda/Button Kirim Uang")): Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is hovered
+
+2020-09-16 14:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is hovered
+
+2020-09-16 14:39:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Beranda/Button Kirim Uang")): Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is clicked on
+
+2020-09-16 14:39:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is clicked on
+
+2020-09-16 14:39:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Kirim Uang/Title Kirim Uang Page"), "Kirim Uang"): Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Title Kirim Uang Page' are matched.
+
+2020-09-16 14:39:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Title Kirim Uang Page' are matched.
+
+2020-09-16 14:39:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60"), "tabungan_pensiunan_nasional", true): All options with value 'tabungan_pensiunan_nasional' are selected in object 'Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60'  using regular expression
+
+2020-09-16 14:39:28 - [MESSAGE][PASSED] - All options with value 'tabungan_pensiunan_nasional' are selected in object 'Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60'  using regular expression
+
+2020-09-16 14:39:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60_1"), "tabungan_pensiunan_nasional", true): All options with value 'tabungan_pensiunan_nasional' are selected in object 'Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60_1'  using regular expression
+
+2020-09-16 14:39:29 - [MESSAGE][PASSED] - All options with value 'tabungan_pensiunan_nasional' are selected in object 'Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60_1'  using regular expression
+
+2020-09-16 14:39:29 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number"), STOP_ON_FAILURE): Text of object 'Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number' is cleared
+
+2020-09-16 14:39:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number' is cleared
+
+2020-09-16 14:39:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number"), "1234567890"): Text '1234567890' is set on object 'Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number'
+
+2020-09-16 14:39:31 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number'
+
+2020-09-16 14:39:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Kirim Uang/button_CEK NAMA")): Object: 'Object Repository/Page_Kirim Uang/button_CEK NAMA' is clicked on
+
+2020-09-16 14:39:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Kirim Uang/button_CEK NAMA' is clicked on
+
+2020-09-16 14:39:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Kirim Uang/Pop Up Rekening Salah"), 200): Object 'Object Repository/Page_Kirim Uang/Pop Up Rekening Salah' is present
+
+2020-09-16 14:39:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Kirim Uang/Pop Up Rekening Salah' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Kirim Uang/Proceeed With Valid Input" time="31.255" classname="Test Cases/Kirim Uang/Proceeed With Valid Input" status="PASSED">
+         <system-out><![CDATA[2020-09-16 14:39:32 - [TEST_CASE][PASSED] - Test Cases/Kirim Uang/Proceeed With Valid Input: Test Cases/Kirim Uang/Proceeed With Valid Input
+
+2020-09-16 14:39:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-16 14:39:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-16 14:39:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-16 14:39:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-16 14:39:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-16 14:39:36 - [TEST_STEP][PASSED] - navigateToUrl("https://flip.id/login"): Navigate to 'https://flip.id/login' successfully
+
+2020-09-16 14:39:41 - [MESSAGE][PASSED] - Navigate to 'https://flip.id/login' successfully
+
+2020-09-16 14:39:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/Input Email"), "m.fauzan.afianto@gmail.com"): Text 'm.fauzan.afianto@gmail.com' is set on object 'Object Repository/Page_Login/Input Email'
+
+2020-09-16 14:39:43 - [MESSAGE][PASSED] - Text 'm.fauzan.afianto@gmail.com' is set on object 'Object Repository/Page_Login/Input Email'
+
+2020-09-16 14:39:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/Input Password"), "DckXWtD/9LOnxpHoHTUHFQ=="): Text ****** has been set on object 'Object Repository/Page_Login/Input Password'
+
+2020-09-16 14:39:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/Input Password'
+
+2020-09-16 14:39:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/Button MASUK")): Object: 'Object Repository/Page_Login/Button MASUK' is clicked on
+
+2020-09-16 14:39:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/Button MASUK' is clicked on
+
+2020-09-16 14:39:44 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Page_Beranda/Button Kirim Uang")): Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is hovered
+
+2020-09-16 14:39:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is hovered
+
+2020-09-16 14:39:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Beranda/Button Kirim Uang")): Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is clicked on
+
+2020-09-16 14:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is clicked on
+
+2020-09-16 14:39:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Kirim Uang/Title Kirim Uang Page"), "Kirim Uang"): Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Title Kirim Uang Page' are matched.
+
+2020-09-16 14:39:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Title Kirim Uang Page' are matched.
+
+2020-09-16 14:39:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60"), "tabungan_pensiunan_nasional", true): All options with value 'tabungan_pensiunan_nasional' are selected in object 'Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60'  using regular expression
+
+2020-09-16 14:39:49 - [MESSAGE][PASSED] - All options with value 'tabungan_pensiunan_nasional' are selected in object 'Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60'  using regular expression
+
+2020-09-16 14:39:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60_1"), "tabungan_pensiunan_nasional", true): All options with value 'tabungan_pensiunan_nasional' are selected in object 'Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60_1'  using regular expression
+
+2020-09-16 14:39:51 - [MESSAGE][PASSED] - All options with value 'tabungan_pensiunan_nasional' are selected in object 'Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60_1'  using regular expression
+
+2020-09-16 14:39:51 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number"), STOP_ON_FAILURE): Text of object 'Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number' is cleared
+
+2020-09-16 14:39:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number' is cleared
+
+2020-09-16 14:39:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number"), "90011236271"): Text '90011236271' is set on object 'Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number'
+
+2020-09-16 14:39:52 - [MESSAGE][PASSED] - Text '90011236271' is set on object 'Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number'
+
+2020-09-16 14:39:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Kirim Uang/button_CEK NAMA")): Object: 'Object Repository/Page_Kirim Uang/button_CEK NAMA' is clicked on
+
+2020-09-16 14:39:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Kirim Uang/button_CEK NAMA' is clicked on
+
+2020-09-16 14:39:52 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_beneficiary_bank"), "value", "MUHAMMAD FAUZAN AFIANTO", 5): Object 'Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_beneficiary_bank' has attribute 'value' with value 'MUHAMMAD FAUZAN AFIANTO'
+
+2020-09-16 14:39:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_beneficiary_bank' has attribute 'value' with value 'MUHAMMAD FAUZAN AFIANTO'
+
+2020-09-16 14:39:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Kirim Uang/input_Rp_amount"), "10.000"): Text '10.000' is set on object 'Object Repository/Page_Kirim Uang/input_Rp_amount'
+
+2020-09-16 14:39:53 - [MESSAGE][PASSED] - Text '10.000' is set on object 'Object Repository/Page_Kirim Uang/input_Rp_amount'
+
+2020-09-16 14:39:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Kirim Uang/button_OK, DATA SUDAH BENAR")): Object: 'Object Repository/Page_Kirim Uang/button_OK, DATA SUDAH BENAR' is clicked on
+
+2020-09-16 14:39:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Kirim Uang/button_OK, DATA SUDAH BENAR' is clicked on
+
+2020-09-16 14:39:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Kirim Uang/Konfirmasi No Rekening"), "90011236271"): Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Konfirmasi No Rekening' are matched.
+
+2020-09-16 14:39:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Konfirmasi No Rekening' are matched.
+
+2020-09-16 14:39:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Kirim Uang/Konfirmasi Noiminal 1"), "Rp10.000"): Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Konfirmasi Noiminal 1' are matched.
+
+2020-09-16 14:39:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Konfirmasi Noiminal 1' are matched.
+
+2020-09-16 14:39:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Kirim Uang/Konfirmasi Noiminal 2"), "Rp10.000"): Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Konfirmasi Noiminal 2' are matched.
+
+2020-09-16 14:39:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Konfirmasi Noiminal 2' are matched.
+
+2020-09-16 14:39:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Kirim Uang/a_LANJUT")): Object: 'Object Repository/Page_Kirim Uang/a_LANJUT' is clicked on
+
+2020-09-16 14:39:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Kirim Uang/a_LANJUT' is clicked on
+
+2020-09-16 14:39:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Kirim Uang/a_SIAP, SAYA SETUJU")): Object: 'Object Repository/Page_Kirim Uang/a_SIAP, SAYA SETUJU' is clicked on
+
+2020-09-16 14:39:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Kirim Uang/a_SIAP, SAYA SETUJU' is clicked on
+
+2020-09-16 14:39:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Konfirmasi Transaksi/span_Lihat")): Object: 'Object Repository/Page_Konfirmasi Transaksi/span_Lihat' is clicked on
+
+2020-09-16 14:39:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Konfirmasi Transaksi/span_Lihat' is clicked on
+
+2020-09-16 14:39:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Konfirmasi Transaksi/Konfirmasi 2 Rerekening Penerima"), "90011236271"): Actual text and expected text of test object 'Object Repository/Page_Konfirmasi Transaksi/Konfirmasi 2 Rerekening Penerima' are matched.
+
+2020-09-16 14:39:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Konfirmasi Transaksi/Konfirmasi 2 Rerekening Penerima' are matched.
+
+2020-09-16 14:39:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Konfirmasi Transaksi/Konfirmasi 2 Nama Penerima"), "MUHAMMAD FAUZAN AFIANTO"): Actual text and expected text of test object 'Object Repository/Page_Konfirmasi Transaksi/Konfirmasi 2 Nama Penerima' are matched.
+
+2020-09-16 14:40:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Konfirmasi Transaksi/Konfirmasi 2 Nama Penerima' are matched.
+
+2020-09-16 14:40:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Konfirmasi Transaksi/Konfirmasi 2 Nominal"), "Rp10.000"): Actual text and expected text of test object 'Object Repository/Page_Konfirmasi Transaksi/Konfirmasi 2 Nominal' are matched.
+
+2020-09-16 14:40:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Konfirmasi Transaksi/Konfirmasi 2 Nominal' are matched.
+
+2020-09-16 14:40:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Konfirmasi Transaksi/button_SAYA SUDAH TRANSFER")): Object: 'Object Repository/Page_Konfirmasi Transaksi/button_SAYA SUDAH TRANSFER' is clicked on
+
+2020-09-16 14:40:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Konfirmasi Transaksi/button_SAYA SUDAH TRANSFER' is clicked on
+
+2020-09-16 14:40:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Transaksi sedang diproses/span_Lihat")): Object: 'Object Repository/Page_Transaksi sedang diproses/span_Lihat' is clicked on
+
+2020-09-16 14:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Transaksi sedang diproses/span_Lihat' is clicked on
+
+2020-09-16 14:40:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Transaksi sedang diproses/Konfirmasi 3 Rekening Penerima"), "90011236271"): Actual text and expected text of test object 'Object Repository/Page_Transaksi sedang diproses/Konfirmasi 3 Rekening Penerima' are matched.
+
+2020-09-16 14:40:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Transaksi sedang diproses/Konfirmasi 3 Rekening Penerima' are matched.
+
+2020-09-16 14:40:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Transaksi sedang diproses/Konfirmasi 3 Nama Penerima"), "MUHAMMAD FAUZAN AFIANTO"): Actual text and expected text of test object 'Object Repository/Page_Transaksi sedang diproses/Konfirmasi 3 Nama Penerima' are matched.
+
+2020-09-16 14:40:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Transaksi sedang diproses/Konfirmasi 3 Nama Penerima' are matched.
+
+2020-09-16 14:40:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Transaksi sedang diproses/Konfirmasi 3 Nominal"), "Rp10.000"): Actual text and expected text of test object 'Object Repository/Page_Transaksi sedang diproses/Konfirmasi 3 Nominal' are matched.
+
+2020-09-16 14:40:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Transaksi sedang diproses/Konfirmasi 3 Nominal' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Kirim Uang/Save With Valid Input" time="22.193" classname="Test Cases/Kirim Uang/Save With Valid Input" status="PASSED">
+         <system-out><![CDATA[2020-09-16 14:40:03 - [TEST_CASE][PASSED] - Test Cases/Kirim Uang/Save With Valid Input: Test Cases/Kirim Uang/Save With Valid Input
+
+2020-09-16 14:40:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-16 14:40:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-16 14:40:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-16 14:40:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-16 14:40:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-16 14:40:07 - [TEST_STEP][PASSED] - navigateToUrl("https://flip.id/login"): Navigate to 'https://flip.id/login' successfully
+
+2020-09-16 14:40:13 - [MESSAGE][PASSED] - Navigate to 'https://flip.id/login' successfully
+
+2020-09-16 14:40:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/Input Email"), "m.fauzan.afianto@gmail.com"): Text 'm.fauzan.afianto@gmail.com' is set on object 'Object Repository/Page_Login/Input Email'
+
+2020-09-16 14:40:14 - [MESSAGE][PASSED] - Text 'm.fauzan.afianto@gmail.com' is set on object 'Object Repository/Page_Login/Input Email'
+
+2020-09-16 14:40:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/Input Password"), "DckXWtD/9LOnxpHoHTUHFQ=="): Text ****** has been set on object 'Object Repository/Page_Login/Input Password'
+
+2020-09-16 14:40:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/Input Password'
+
+2020-09-16 14:40:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/Button MASUK")): Object: 'Object Repository/Page_Login/Button MASUK' is clicked on
+
+2020-09-16 14:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/Button MASUK' is clicked on
+
+2020-09-16 14:40:15 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Page_Beranda/Button Kirim Uang")): Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is hovered
+
+2020-09-16 14:40:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is hovered
+
+2020-09-16 14:40:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Beranda/Button Kirim Uang")): Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is clicked on
+
+2020-09-16 14:40:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/Button Kirim Uang' is clicked on
+
+2020-09-16 14:40:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Kirim Uang/Title Kirim Uang Page"), "Kirim Uang"): Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Title Kirim Uang Page' are matched.
+
+2020-09-16 14:40:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Kirim Uang/Title Kirim Uang Page' are matched.
+
+2020-09-16 14:40:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60"), "tabungan_pensiunan_nasional", true): All options with value 'tabungan_pensiunan_nasional' are selected in object 'Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60'  using regular expression
+
+2020-09-16 14:40:20 - [MESSAGE][PASSED] - All options with value 'tabungan_pensiunan_nasional' are selected in object 'Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60'  using regular expression
+
+2020-09-16 14:40:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60_1"), "tabungan_pensiunan_nasional", true): All options with value 'tabungan_pensiunan_nasional' are selected in object 'Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60_1'  using regular expression
+
+2020-09-16 14:40:21 - [MESSAGE][PASSED] - All options with value 'tabungan_pensiunan_nasional' are selected in object 'Object Repository/Page_Kirim Uang/select_-- Pilih Bank --MandiriBRIBNI  BNI S_783f60_1'  using regular expression
+
+2020-09-16 14:40:21 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number"), STOP_ON_FAILURE): Text of object 'Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number' is cleared
+
+2020-09-16 14:40:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number' is cleared
+
+2020-09-16 14:40:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number"), "90011236271"): Text '90011236271' is set on object 'Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number'
+
+2020-09-16 14:40:22 - [MESSAGE][PASSED] - Text '90011236271' is set on object 'Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_account_number'
+
+2020-09-16 14:40:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Kirim Uang/button_CEK NAMA")): Object: 'Object Repository/Page_Kirim Uang/button_CEK NAMA' is clicked on
+
+2020-09-16 14:40:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Kirim Uang/button_CEK NAMA' is clicked on
+
+2020-09-16 14:40:23 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_beneficiary_bank"), "value", "MUHAMMAD FAUZAN AFIANTO", 5): Object 'Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_beneficiary_bank' has attribute 'value' with value 'MUHAMMAD FAUZAN AFIANTO'
+
+2020-09-16 14:40:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Kirim Uang/input_REKENING TUJUAN_beneficiary_bank' has attribute 'value' with value 'MUHAMMAD FAUZAN AFIANTO'
+
+2020-09-16 14:40:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Kirim Uang/input_Rp_amount"), "10.000"): Text '10.000' is set on object 'Object Repository/Page_Kirim Uang/input_Rp_amount'
+
+2020-09-16 14:40:24 - [MESSAGE][PASSED] - Text '10.000' is set on object 'Object Repository/Page_Kirim Uang/input_Rp_amount'
+
+2020-09-16 14:40:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Kirim Uang/button_ SIMPAN DAN BUAT TRANSAKSI LAGI")): Object: 'Object Repository/Page_Kirim Uang/button_ SIMPAN DAN BUAT TRANSAKSI LAGI' is clicked on
+
+2020-09-16 14:40:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Kirim Uang/button_ SIMPAN DAN BUAT TRANSAKSI LAGI' is clicked on
+
+2020-09-16 14:40:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-16 14:40:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-16 14:38:10 - [TEST_SUITE][PASSED] - Kirim Uang Suites: Test Cases/Kirim Uang/Save With Valid Input]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
