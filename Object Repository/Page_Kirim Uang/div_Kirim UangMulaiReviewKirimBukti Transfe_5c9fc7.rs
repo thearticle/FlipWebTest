@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Kirim UangMulaiReviewKirimBukti Transfe_5c9fc7</name>
+   <tag></tag>
+   <elementGuidId>98db382d-0d42-4424-a9fd-f83ad9dd53d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.justify-content-md-center.row</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>justify-content-md-center row</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kirim UangMulaiReviewKirimBukti TransferJam layanan Flip adalah Senin-Minggu, pukul 07:00-20:00 WIB.REKENING YANG SAYA GUNAKAN-- Pilih Bank --MandiriBRIBNI / BNI SyariahBCABank Syariah MandiriCIMB NiagaMuamalatBTPN / Jenius / BTPN Wow!Permata / Permata SyariahREKENING TUJUANINPUT BARUDAFTAR REKENING-- Pilih Bank --MandiriBRIBNI / BNI SyariahBCABank Syariah MandiriCIMB NiagaMuamalatBTPN / Jenius / BTPN Wow!Permata / Permata SyariahCEK NAMANOMINALRpMinimal nominal Rp10.000BERITAvia FlipPastikan seluruh data yang dimasukkan benar.+ SIMPAN DAN BUAT TRANSAKSI LAGIOK, DATA SUDAH BENAR</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-container transaction false&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;justify-content-md-center row&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>

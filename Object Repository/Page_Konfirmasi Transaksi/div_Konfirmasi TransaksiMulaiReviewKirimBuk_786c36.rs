@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Konfirmasi TransaksiMulaiReviewKirimBuk_786c36</name>
+   <tag></tag>
+   <elementGuidId>27ea5a67-c5ec-4143-9590-09e4817cb3b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.justify-content-md-center.row</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>justify-content-md-center row</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Konfirmasi TransaksiMulaiReviewKirimBukti TransferID TRANSAKSI: #FT25953601SalinDETAIL TRANSAKSITutupTujuan:BTPN / Jenius / BTPN Wow!90011236271MUHAMMAD FAUZAN AFIANTONominal:Rp10.000Kode Unik52PASTIKAN NOMINAL TRANSFER  TEPAT BERJUMLAHRp10.052SalinTRANSFER KE Nama Bank:BTPN / Jenius / BTPN Wow!No. Rekening:05373001289 SalinNama Penerima:FLIPTECH LENTERA INSPIRASI PERTIWINominal sebesar Rp10.000 akan diteruskan ke rekening tujuan.Kode unik sebesar Rp52 akan disimpan ke dalam deposit akun kamu yang nanti dapat dicairkan.BATALKAN TRANSAKSISudah transfer melalui ATM/Internet/mobile banking? Klik tombol di bawah untuk mengonfirmasi.Setelah sudah transfer, klik tombol di bawah untuk mengonfirmasi. Flip tidak memproses transaksi yang belum dikonfirmasi :)SAYA SUDAH TRANSFER</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-container transaction false&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;justify-content-md-center row&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>
